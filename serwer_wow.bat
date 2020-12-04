@@ -16,9 +16,6 @@ echo [1]: Sunwell
 echo [2]: Warmane
 set /p serwer=
 
-echo %folder%
-pause
-
 IF "%serwer%"=="1" (
   echo set realmlist logon.sunwell.pl> %folder%\realmlist.wtf
 ) ELSE IF "%serwer%"=="2" (
