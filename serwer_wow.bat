@@ -19,7 +19,7 @@ set /p serwer=
 IF "%serwer%"=="1" (
   echo set realmlist logon.sunwell.pl> %folder%\realmlist.wtf
 ) ELSE IF "%serwer%"=="2" (
-  echo set realmlist logon.warmane.com> %folder%\Data\enUS\realmlist.wtf
+  echo set realmlist logon.warmane.com> %folder%\realmlist.wtf
 ) ELSE (
   cls
   echo Niepoprawna odpowiedz
