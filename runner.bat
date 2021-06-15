@@ -14,12 +14,15 @@ IF EXIST %cd%\Data\enUS (
 echo Na ktory serwer chcesz sie zalogowac?
 echo [1]: Sunwell
 echo [2]: Warmane
+echo [3]: Whitemane
 set /p serwer=
 
 IF "%serwer%"=="1" (
   echo set realmlist logon.sunwell.pl> %folder%\realmlist.wtf
 ) ELSE IF "%serwer%"=="2" (
   echo set realmlist logon.warmane.com> %folder%\realmlist.wtf
+) ELSE IF "%serwer%"=="3" (
+  echo set realmlist logon.whitemane.gg> %folder%\realmlist.wtf
 ) ELSE (
   cls
   echo Niepoprawna odpowiedz
